@@ -11,41 +11,41 @@
             <ColumnDefinition Width="54*"/>
             <ColumnDefinition Width="767*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="RajjPatel" Content="RajjPatel" HorizontalAlignment="Left" Margin="13.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="RajjPatel" Content="RajjPatel" HorizontalAlignment="Left" Margin="13.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Rajj Patel"/>
         <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439"/>
-        <Button x:Name="Rastafied" Content="Rastafied" HorizontalAlignment="Left" Margin="113.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="RastaRafikii" Content="RastaRafikii" HorizontalAlignment="Left" Margin="213.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SAMZHIT" Content="SAMZHIT" HorizontalAlignment="Left" Margin="313.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1"/>
-        <Button x:Name="Sarapocalypse" Content="Sarapocalypse" HorizontalAlignment="Left" Margin="413.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SayeedBlack" Content="SayeedBlack" HorizontalAlignment="Left" Margin="513.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SeanKingV" Content="SeanKingV" Margin="613.667,55,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
-        <Button x:Name="Selvek" Content="Selvek" HorizontalAlignment="Left" Margin="13.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="ShaZ" Content="ShaZ" HorizontalAlignment="Left" Margin="113.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SheriffEli" Content="SheriffEli" HorizontalAlignment="Left" Margin="213.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SHPTV" Content="SHP__TV" HorizontalAlignment="Left" Margin="313.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SilentSentry" Content="SilentSentry" HorizontalAlignment="Left" Margin="413.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SimplyJulian" Content="SimplyJulian" HorizontalAlignment="Left" Margin="513.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SirCoffeestain" Content="SirCoffeestain" Margin="613.667,104,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
-        <Button x:Name="SirPinkleton00" Content="SirPinkleton00" HorizontalAlignment="Left" Margin="13.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SkipGently" Content="SkipGently" HorizontalAlignment="Left" Margin="113.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="SomeTexas_Dude" Content="Some__Texas__Dude" HorizontalAlignment="Left" Margin="213.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10"/>
-        <Button x:Name="Ssaab" Content="Ssaab" HorizontalAlignment="Left" Margin="313.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="Ssaab_Click"/>
-        <Button x:Name="TastyTV" Content="TastyTV" HorizontalAlignment="Left" Margin="413.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="Thadrius" Content="Thadrius" HorizontalAlignment="Left" Margin="513.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1"/>
-        <Button x:Name="TheBuddha3" Content="TheBuddha3" Margin="613.667,153,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
-        <Button x:Name="thelawmangaming" Content="thelawmangaming" HorizontalAlignment="Left" Margin="13.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10"/>
-        <Button x:Name="TigerWriter" Content="TigerWriter" HorizontalAlignment="Left" Margin="113.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1"/>
-        <Button x:Name="Timmac" Content="Timmac" HorizontalAlignment="Left" Margin="213.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="TVSBOH" Content="TVSBOH" HorizontalAlignment="Left" Margin="313.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="UndeadBaron" Content="UndeadBaron" HorizontalAlignment="Left" Margin="413.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="ValkyrieSpirit" Content="ValkyrieSpirit" HorizontalAlignment="Left" Margin="513.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="Will_ko" Content="Will__ko" Margin="613.667,207,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
-        <Button x:Name="willitkimchi" Content="willitkimchi" HorizontalAlignment="Left" Margin="13.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="Wish" Content="Wish" HorizontalAlignment="Left" Margin="113.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="X_xZimx_X" Content="X__xZimx__X" HorizontalAlignment="Left" Margin="213.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="Xiceman" Content="Xiceman" HorizontalAlignment="Left" Margin="313.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="XProph3cyx" Content="XProph3cyx" HorizontalAlignment="Left" Margin="413.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
-        <Button x:Name="Zaquelle" Content="Zaquelle" HorizontalAlignment="Left" Margin="513.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="Rastafied" Content="Rastafied" HorizontalAlignment="Left" Margin="113.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Milly Bays"/>
+        <Button x:Name="RastaRafikii" Content="RastaRafikii" HorizontalAlignment="Left" Margin="213.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Dean Dimes"/>
+        <Button x:Name="SAMZHIT" Content="SAMZHIT" HorizontalAlignment="Left" Margin="313.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1" ToolTip="Characters: Dimitri Barkov | Earl Higgs | John Hill"/>
+        <Button x:Name="Sarapocalypse" Content="Sarapocalypse" HorizontalAlignment="Left" Margin="413.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Jessie Jones | Spencer Rhodes"/>
+        <Button x:Name="SayeedBlack" Content="SayeedBlack" HorizontalAlignment="Left" Margin="513.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Sayeed White"/>
+        <Button x:Name="SeanKingV" Content="SeanKingV" Margin="613.667,55,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Gerald Choppins"/>
+        <Button x:Name="Selvek" Content="Selvek" HorizontalAlignment="Left" Margin="13.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jeffrey Connors"/>
+        <Button x:Name="ShaZ" Content="ShaZ" HorizontalAlignment="Left" Margin="113.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Buc Lauo"/>
+        <Button x:Name="SheriffEli" Content="SheriffEli" HorizontalAlignment="Left" Margin="213.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Duke | Eli Thompson | Scott McCloud"/>
+        <Button x:Name="SHPTV" Content="SHP__TV" HorizontalAlignment="Left" Margin="313.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Bruce Greenwell"/>
+        <Button x:Name="SilentSentry" Content="SilentSentry" HorizontalAlignment="Left" Margin="413.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Clarence Williams"/>
+        <Button x:Name="SimplyJulian" Content="SimplyJulian" HorizontalAlignment="Left" Margin="513.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Julian Santorno"/>
+        <Button x:Name="SirCoffeestain" Content="SirCoffeestain" Margin="613.667,104,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Roger Steel"/>
+        <Button x:Name="SirPinkleton00" Content="SirPinkleton00" HorizontalAlignment="Left" Margin="13.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Reginald Bigglesby"/>
+        <Button x:Name="SkipGently" Content="SkipGently" HorizontalAlignment="Left" Margin="113.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jack Deakins"/>
+        <Button x:Name="SomeTexas_Dude" Content="Some__Texas__Dude" HorizontalAlignment="Left" Margin="213.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Nolan Ryan"/>
+        <Button x:Name="Ssaab" Content="Ssaab" HorizontalAlignment="Left" Margin="313.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="Ssaab_Click" ToolTip="Character: Al Saab"/>
+        <Button x:Name="TastyTV" Content="TastyTV" HorizontalAlignment="Left" Margin="413.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bobby Irvine | Harold Wilson | Patrick Flanegan | William Parker"/>
+        <Button x:Name="Thadrius" Content="Thadrius" HorizontalAlignment="Left" Margin="513.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Characters: Brayben Dazzler | Johnny Dazzler | Slappy McGaffey"/>
+        <Button x:Name="TheBuddha3" Content="TheBuddha3" Margin="613.667,153,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Lang Buddha"/>
+        <Button x:Name="thelawmangaming" Content="thelawmangaming" HorizontalAlignment="Left" Margin="13.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Robert Beck"/>
+        <Button x:Name="TigerWriter" Content="TigerWriter" HorizontalAlignment="Left" Margin="113.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Character: Juan Goodman"/>
+        <Button x:Name="Timmac" Content="Timmac" HorizontalAlignment="Left" Margin="213.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Shaggy Dankweed | Timmy Macapone"/>
+        <Button x:Name="TVSBOH" Content="TVSBOH" HorizontalAlignment="Left" Margin="313.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Chester Heartsong | Tommy Silver"/>
+        <Button x:Name="UndeadBaron" Content="UndeadBaron" HorizontalAlignment="Left" Margin="413.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Yazumitsu Fujikawa"/>
+        <Button x:Name="ValkyrieSpirit" Content="ValkyrieSpirit" HorizontalAlignment="Left" Margin="513.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bianca Ellis | Stella Bouche"/>
+        <Button x:Name="Will_ko" Content="Will__ko" Margin="613.667,207,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Edward Payne"/>
+        <Button x:Name="willitkimchi" Content="willitkimchi" HorizontalAlignment="Left" Margin="13.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Lee Kimchi | Will Kimchi"/>
+        <Button x:Name="Wish" Content="Wish" HorizontalAlignment="Left" Margin="113.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Avery Jenkins | Miranda Wrights | Willow Nova"/>
+        <Button x:Name="X_xZimx_X" Content="X__xZimx__X" HorizontalAlignment="Left" Margin="213.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Zim Pontes"/>
+        <Button x:Name="Xiceman" Content="Xiceman" HorizontalAlignment="Left" Margin="313.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Mike Bayo | Rusty Dawns"/>
+        <Button x:Name="XProph3cyx" Content="XProph3cyx" HorizontalAlignment="Left" Margin="413.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Ichiro Suyaki"/>
+        <Button x:Name="Zaquelle" Content="Zaquelle" HorizontalAlignment="Left" Margin="513.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Emma Moore | Zoey Lyrais"/>
         <Button Content="N/A" Margin="613.667,256,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
         <Button Content="N/A" HorizontalAlignment="Left" Margin="13.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
         <Button Content="N/A" HorizontalAlignment="Left" Margin="113.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>

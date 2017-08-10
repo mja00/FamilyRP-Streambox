@@ -1,10 +1,8 @@
 ﻿Public Class Window1
     Private Sub BackButton_Click(sender As Object, e As RoutedEventArgs) Handles BackButton.Click
-        Dim myFirstForm As New MainWindow
-        Dim mySecondForm As New Window1
-        myFirstForm.Hide()
-        mySecondForm.Show()
         Me.Hide()
+        Dim myFirstForm As New MainWindow
+        myFirstForm.Show()
     End Sub
 
     Private Sub Ssaab_Click(sender As Object, e As RoutedEventArgs)
