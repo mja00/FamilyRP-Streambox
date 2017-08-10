@@ -11,10 +11,10 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WpfApp1")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("WpfApp1")>
+<Assembly: AssemblyTitle("The FamilyRP Streambox")>
+<Assembly: AssemblyDescription("Watch all your favorite FamilyRP streamers with this one application.")>
+<Assembly: AssemblyCompany("Mja00 Codes")>
+<Assembly: AssemblyProduct("TFRPStreambox")>
 <Assembly: AssemblyCopyright("Copyright ©  2017")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: ComVisible(false)>
@@ -57,3 +57,4 @@ Imports System.Windows
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: NeutralResourcesLanguage("en")>
