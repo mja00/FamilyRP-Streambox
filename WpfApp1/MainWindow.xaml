@@ -1,0 +1,83 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TFRPStreambox"
+        mc:Ignorable="d"
+        Title="The FamilyRP Streambox" Height="588" Width="840">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="767*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="_1GUnit1" Content="1GUnit1" HorizontalAlignment="Left" Margin="13.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="_1GUnit1_Click" ToolTip="Character: Jimmy Bean"/>
+        <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439"/>
+        <Button x:Name="AbdulHD" Content="AbdulHD" HorizontalAlignment="Left" Margin="113.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Abdul ALRahim"/>
+        <Button x:Name="AgentNorth" Content="AgentNorth" HorizontalAlignment="Left" Margin="213.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Billy Roadstar"/>
+        <Button x:Name="alexusnightingale" Content="alexusnightingale" HorizontalAlignment="Left" Margin="313.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1" ToolTip="Characters: Alei Nightingale | Anastacia Ortiz"/>
+        <Button x:Name="AndyMilonakis" Content="AndyMilonakis" HorizontalAlignment="Left" Margin="413.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Herbert Ward | Tameca Nakazawa"/>
+        <Button x:Name="anthonyz_" Content="anthonyz__" HorizontalAlignment="Left" Margin="513.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Tony Corleone"/>
+        <Button x:Name="BFLY003" Content="BFLY003" Margin="613.667,55,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Torah Hart"/>
+        <Button x:Name="boscoreli_gaming" Content="boscoreli" HorizontalAlignment="Left" Margin="13.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Mike Boscoreli"/>
+        <Button x:Name="BPZ" Content="BPZ" HorizontalAlignment="Left" Margin="113.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Skeeter Fontaine"/>
+        <Button x:Name="BuckkNaked" Content="BuckkNaked" HorizontalAlignment="Left" Margin="213.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Bucky Savage"/>
+        <Button x:Name="BurkeBlack" Content="BurkeBlack" HorizontalAlignment="Left" Margin="313.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Charactes: Big Momma | Walter Diddlesticks"/>
+        <Button x:Name="Ch1ckenb0ne" Content="Ch1ckenb0ne" HorizontalAlignment="Left" Margin="413.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Angel Blaze | Randall Cage | Tiberius Kingston"/>
+        <Button x:Name="ChiefDas" Content="ChiefDas" HorizontalAlignment="Left" Margin="513.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Baada Ka"/>
+        <Button x:Name="ClassyPax" Content="ClassyPax" Margin="613.667,104,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Characters: Deuce Montgomery | Francis Sinclair | Hobo Harry | Lenny Wright"/>
+        <Button x:Name="CletusBueford" Content="CletusBueford" HorizontalAlignment="Left" Margin="13.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Cletus Bueford | Cooter Beuford"/>
+        <Button x:Name="CoolidgeHD" Content="CoolidgeHD" HorizontalAlignment="Left" Margin="113.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bob Coolidge | Frank Murdock"/>
+        <Button x:Name="dasMehdi" Content="dasMehdi" HorizontalAlignment="Left" Margin="213.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Nino Chavez"/>
+        <Button x:Name="DisbeArex" Content="DisbeArex" HorizontalAlignment="Left" Margin="313.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Fanny Dumpling"/>
+        <Button x:Name="djkwix" Content="djkwix" HorizontalAlignment="Left" Margin="413.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Candy Moist"/>
+        <Button x:Name="DrunkBabyYoshi" Content="DrunkBabyYoshi" HorizontalAlignment="Left" Margin="513.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Characters: Grant Mchenry | Merle Mchenry"/>
+        <Button x:Name="Esoluu" Content="Esoluu" Margin="613.667,153,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Aaron Smooth"/>
+        <Button x:Name="Finkone" Content="FinKone" HorizontalAlignment="Left" Margin="13.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Jason Doyle | Peanut Butter"/>
+        <Button x:Name="FistofTheWalrus" Content="FistofTheWalrus" HorizontalAlignment="Left" Margin="113.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Characters: Al Timers | Fabio Magnifico | Lazarus West"/>
+        <Button x:Name="Five0AnthO" Content="Five0AnthO" HorizontalAlignment="Left" Margin="213.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Tony Andrews"/>
+        <Button x:Name="GeeFamous92" Content="GeeFamous92" HorizontalAlignment="Left" Margin="313.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Garrett Famous"/>
+        <Button x:Name="GhilleGuyTV" Content="GhillieGuyTV" HorizontalAlignment="Left" Margin="413.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Dannie Slater | Duke Mason"/>
+        <Button x:Name="GiantFaffle" Content="GiantFaffle" HorizontalAlignment="Left" Margin="513.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Felix Marks"/>
+        <Button x:Name="GloryD" Content="GloryD" Margin="613.667,207,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Dequan Mathis"/>
+        <Button x:Name="Harryow" Content="Harryow" HorizontalAlignment="Left" Margin="13.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Harry Brown"/>
+        <Button x:Name="Hazard" Content="Hazard" HorizontalAlignment="Left" Margin="113.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Mav Doretto"/>
+        <Button x:Name="Hirona" Content="Hirona" HorizontalAlignment="Left" Margin="213.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Alexis Freeman | Debbie Murdock"/>
+        <Button x:Name="IAmSp00n" Content="IAmSp00n" HorizontalAlignment="Left" Margin="313.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Flint Wilson"/>
+        <Button x:Name="ImmortalLive" Content="ImmortalLive" HorizontalAlignment="Left" Margin="413.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Johnny Davidson"/>
+        <Button x:Name="ironmonkeytv" Content="ironmonkeytv" HorizontalAlignment="Left" Margin="513.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bobby Goodman | Jason Freeman"/>
+        <Button x:Name="itzButch" Content="itzButch" Margin="613.667,256,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: N/A"/>
+        <Button x:Name="J_Reed" Content="J_Reed" HorizontalAlignment="Left" Margin="13.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Byrone Tiggum"/>
+        <Button x:Name="JaboodyShow" Content="JaboodyShow" HorizontalAlignment="Left" Margin="113.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Chang Wei | Jerry Curl"/>
+        <Button x:Name="jake_terek" Content="jake__terek" HorizontalAlignment="Left" Margin="213.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Charles Deacon | Lance Amadeus | Michelle Townsend"/>
+        <Button x:Name="JmxTwiztid" Content="JmxTwiztid" HorizontalAlignment="Left" Margin="313.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jason Diggs"/>
+        <Button x:Name="John782" Content="John782" HorizontalAlignment="Left" Margin="413.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: David Thomas | John Thomas"/>
+        <Button x:Name="Jolly__Jess" Content="Jolly____Jess" HorizontalAlignment="Left" Margin="513.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bambi Carter | Frankie Walker"/>
+        <Button x:Name="JTtroy" Content="JTtroy" Margin="613.667,305,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Kal Clark"/>
+        <Button x:Name="kaceytron" Content="kaceytron" HorizontalAlignment="Left" Margin="13.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Ruth Winfrey"/>
+        <Button x:Name="KaptainKpress" Content="KaptainKpress" HorizontalAlignment="Left" Margin="113.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Darrelle Baitor"/>
+        <Button x:Name="KatieRouu" Content="KatieRouu" HorizontalAlignment="Left" Margin="213.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Alice Novoa | Amanda Covert | Keira Webb | Lily Baker"/>
+        <Button x:Name="Kithicor27" Content="Kithicor27" HorizontalAlignment="Left" Margin="313.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Geoffrey Kregdale"/>
+        <Button x:Name="LarryX7" Content="LarryX7" HorizontalAlignment="Left" Margin="413.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Tyrese Tyrone"/>
+        <Button x:Name="lawdog1096" Content="lawdog1096" HorizontalAlignment="Left" Margin="513.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jonathan Murdock"/>
+        <Button x:Name="LiftYourGame" Content="LiftYourGame" Margin="613.667,356,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Characters: Chuck Pickles | Lutrell Skinner"/>
+        <Button x:Name="loveANF3L" Content="loveANG3L" HorizontalAlignment="Left" Margin="13.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Angel McKenzie"/>
+        <Button x:Name="mart1n_g" Content="mart1n__g" HorizontalAlignment="Left" Margin="113.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Pat Clinton | Tommy-Lee Wyatt"/>
+        <Button x:Name="MiltonTPike1" Content="MiltonTPike1" HorizontalAlignment="Left" Margin="213.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Alice Malone | Bernice Jacques | Doug Brewster | Gloria Munroe | Kiki Chanel | William Ding"/>
+        <Button x:Name="MintsTV" Content="MintsTV" HorizontalAlignment="Left" Margin="313.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="MrMoonsHouse" Content="MrMoonsHouse" HorizontalAlignment="Left" Margin="413.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11"/>
+        <Button x:Name="MsDeathRabbit" Content="MsDeathRabbit" HorizontalAlignment="Left" Margin="513.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="Og_BluePill" Content="Og__BluePill" Margin="613.667,405,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
+        <Button x:Name="PENTAhearth" Content="PENTAhearth" HorizontalAlignment="Left" Margin="13.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="Pinky" Content="Pinky" HorizontalAlignment="Left" Margin="113.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="PmsProxy" Content="PmsProxy" HorizontalAlignment="Left" Margin="213.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="PorkMarshmallow" Content="PorkMarshmallow" HorizontalAlignment="Left" Margin="313.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11"/>
+        <Button x:Name="PrimusPalus" Content="PrimusPalus" HorizontalAlignment="Left" Margin="413.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="Purrluna" Content="Purrluna" HorizontalAlignment="Left" Margin="513.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1"/>
+        <Button x:Name="Pydrex" Content="Pydrex" Margin="613.667,454,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85"/>
+        <Button x:Name="myButton" Content="Next Page" Grid.Column="1" HorizontalAlignment="Left" Margin="314,500,0,0" VerticalAlignment="Top" Width="85" Height="30"/>
+        <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47"/>
+        <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315"/>
+
+    </Grid>
+</Window>
