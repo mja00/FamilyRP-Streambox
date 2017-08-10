@@ -260,4 +260,8 @@ Class MainWindow
     Private Sub Pydrex_Click(sender As Object, e As RoutedEventArgs) Handles Pydrex.Click
         Process.Start("CMD", "/C data\streamlink.exe http://twitch.tv/Pydrex best")
     End Sub
+
+    Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
+        Process.Start("https://www.videolan.org/vlc/index.html")
+    End Sub
 End Class

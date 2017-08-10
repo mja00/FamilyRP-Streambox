@@ -78,6 +78,7 @@
         <Button x:Name="myButton" Content="Next Page" Grid.Column="1" HorizontalAlignment="Left" Margin="314,500,0,0" VerticalAlignment="Top" Width="85" Height="30"/>
         <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47"/>
         <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315"/>
-
+        <Button Content="VLC Player" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="637,10,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" ToolTip="VLC is needed to see the video streams"/>
+        
     </Grid>
 </Window>
